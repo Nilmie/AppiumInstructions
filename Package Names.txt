@@ -1,0 +1,10 @@
+Microsoft Windows [Version 10.0.17763.1637]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>adb shell
+1904:/ $ dumpsys window windows | grep -E 'mCurrentFocus'
+  mCurrentFocus=Window{6b42bfe u0 com.android.bbkcalculator/com.android.bbkcalculator.Calculator}
+1904:/ $
+
+
+http://www.automationtestinghub.com/apppackage-and-appactivity-name/

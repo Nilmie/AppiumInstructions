@@ -1,0 +1,36 @@
+
+To Install and download Node js module. Please click on this link and install the node.js module as per your system requirement.
+
+
+
+
+2)    Validate the Node.js installation by typing the below command
+                                  npm –version
+
+
+
+3)    Now install appium server through command line
+
+Open command line type below command and hit on enter
+                        npm install -g appium
+
+
+
+
+alternatively to install any particular appium version use
+                       appium install@version
+
+
+ 4)    Once the Appium installation is complete. Validate it by using below   command
+                                 appium --version
+
+
+5)    Start Appium Server
+
+Now to start appium server type appium in command prompt and enter hit
+
+
+
+By default appium start on port no 4723 to change the port using below command
+                       appium --port <portnumber>
+
